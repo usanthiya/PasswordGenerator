@@ -1,0 +1,86 @@
+body{
+  
+  background-color: aliceblue;
+  
+}
+.passwordgenerator{
+  background-color: white;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.passwordgenerator h2{
+  color: #007bff;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+ 
+}
+.checkboxinput{
+  display: flex;
+  flex-direction: column;
+}
+.text, .passswordinput, .checkboxinput{
+  margin-bottom: 10px;
+}
+.passswordinput label{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.passswordinput input[type="number"]{
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  outline: none;
+}
+
+.checkboxinput input[type=checkbox]{
+  margin-bottom: 10px;
+
+}
+.checkboxinput label{
+  font-size: 18px;
+}
+.passwordbtn{
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.passwordbtn:hover{
+  background-color: #0056b3;
+
+}
+
+.text{
+  margin-top:10px;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.text input[type="text"]{
+  padding: 10px;
+  border: none;
+  flex: 1;
+  outline: none;
+}
+.copybtn{
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.copybtn:hover{
+  background-color: rgba(0, 128, 0, 0.74);
+}
